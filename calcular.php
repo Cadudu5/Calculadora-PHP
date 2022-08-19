@@ -2,9 +2,9 @@
 
     require_once "Calculadora.php";
 
-    $number1 = $_POST['num1'];
-    $number2 = $_POST['num2'];
-    $operation = $_POST['operation'];
+    $number1 = $_GET['num1'];
+    $number2 = $_GET['num2'];
+    $operation = $_GET['operation'];
 
     $Calculadora = new Calculadora();
 
